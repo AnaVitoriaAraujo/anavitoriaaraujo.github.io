@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diadema</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 10px;
+            background-color: #ca895f;
+        }
+
+        /* Estilizadno o Header/Blog Title */
+        header {
+            background: linear-gradient(to bottom,#E3E26F 0%, #CA895F);
+            color: #2f1b15;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 50px;
+        }
+
+        /* Estilizando a top nav bar */
+        .topnav {
+            overflow: hidden;
+            background-color: #ca895f;
+        }
+
+        /* Estilizando os links da topnav */
+        .topnav a {
+            float: left;
+            display: block;
+            color: #2f1b15;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        /* Colorindo o hover */
+        .topnav a:hover {
+            background: linear-gradient(to bottom, #A15E49 0%, #4E3822 100%);
+            color: #E3E26F;
+        }
+
+        /* Criamos duas colunas uma do lado da outra */
+        /* Coluna da esquerda */
+        .leftcolumn {
+            float: left;
+            width: 75%;
+
+        }
+
+        /* Coluna da direita */
+        .rightcolumn {
+            float: left;
+            width: 25%;
+            background-color: #A15E49;
+            padding: 20px;
+        }
+
+        /* Fake Image */
+        .fakeimg {
+            background-color: #ca895f;
+            width: 100%;
+            padding: 20px;
+        }
+
+        /* Adicionando cartóes para inclusão de artigos */
+        article {
+            background-color: #a15e49;
+            padding: 20px;
+            margin: 20px;
+        }
+
+        /* Limpando os floats depois das colunas */
+        section::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        
+        .left{
+        float: left;
+        display: flex;
+        width: 10%;
+        height: 1000px;
+        /*só um teste boy*/
+        background: linear-gradient(to bottom, #CA895F 0%, #E3E26F);
+        color: #2f1b15;
+        padding: 20px;
+
+        }
+
+        
+        .right{
+            float: right;
+            display: flex;
+            width: 10%;
+            height: 1000px;
+            /*só um teste boy*/
+            background: linear-gradient(to bottom, #CA895F 0%, #E3E26F);
+            color: #2f1b15;
+            padding: 20px;
+           
+
+        }
+        /* Footer */
+        footer {
+            padding: 20px;
+            text-align: center;
+            background: linear-gradient(to bottom, #CA895F 0%, #E3E26F);
+            color: #2f1b15;
+        }
+
+        /* Responsavidade */
+        @media screen and (max-width: 800px) {
+
+            .leftcolumn,
+            .rightcolumn {
+                width: 100%;
+                padding: 0;
+            }
+
+        }
+
+        @media screen and (max-width: 400px) {
+            .topnav a {
+                float: none;
+                width: 100%;
+            }
+        }
+
+
+    </style>
+
+
+</head>
+
+<body> <!-- "Corpo" -->
+
+    <header>
+        <h1>Diadema</h1>
+    </header>
+   
+    <nav class="topnav">
+        <a href="IndexABD.html" target="_self">Home ABD</a>
+        <a href="santo_andre.html" target="_self"> Santo André </a>
+        <a href="diadema.html" target="_self"> Diadema </a>
+        <a href="sao_caetano.html" target="_self"> São Caetano do Sul</a>
+        <a href="sbc.html" target="_self"> São Bernardo do Campo </a>
+       
+    </nav>
+
+   <aside class="left"></aside>
+
+   <aside class="right"></aside>
+
+    <section>
+        <div class="leftcolumn">
+        <article>
+                <div class="fakeimg" style="height: 200px;" align="center">
+                    <img src="diade.png" alt="Imagem da região abd" width="30%" height="100%">
+                </div>
+                
+            <!-- aqui coloco um texto escritivo da cidade -->
+            <p>
+
+            <br> <br>
+                    <!-- faço um texto dscritivo -->
+                    Diadema é uma cidade localizada na Região Metropolitana de São Paulo, no Estado de São Paulo, Brasil.<br>Fundada em 1959, a cidade tem uma história relativamente jovem, mas rapidamente se desenvolveu para se tornar uma importante parte do cenário urbano da Grande São Paulo.
+
+                    O nome "Diadema" tem origens na palavra grega "diadema", que se refere a uma espécie de coroa usada em diversas culturas antigas.<br>Embora a cidade não seja uma monarquia, esse nome sugere a diversidade e a riqueza cultural que caracterizam Diadema.
+
+                    Um dos aspectos notáveis de Diadema é sua população diversificada, composta por pessoas de diferentes origens étnicas e culturas.<br>Essa diversidade cultural se reflete nas várias manifestações culturais, culinária e tradições que enriquecem a cidade.
+
+                    Diadema é conhecida por seu compromisso com o desenvolvimento social e a qualidade de vida de seus habitantes.<br>A cidade investe em infraestrutura, serviços públicos e áreas verdes para proporcionar um ambiente agradável para seus moradores. Além disso, projetos de inclusão social e programas educacionais são prioridades na agenda da cidade.
+
+                    A educação também é valorizada em Diadema, com uma rede de escolas públicas e privadas, bem como instituições de ensino superior, que oferecem oportunidades de aprendizado para todos os níveis educacionais.
+
+                    A cidade possui uma vida cultural ativa, com teatros, centros culturais e eventos que celebram a arte e a música.<br>A diversidade cultural de Diadema se manifesta em festivais, exposições e apresentações que enriquecem a vida cultural da comunidade.
+
+                    Além disso, Diadema tem se esforçado para equilibrar o desenvolvimento econômico com a preservação ambiental.<br>Projetos de sustentabilidade e a promoção do uso consciente dos recursos naturais são prioridades para garantir um futuro sustentável para a cidade.
+
+                    Em resumo, Diadema é uma cidade em crescimento, com uma população diversificada e uma abordagem focada no bem-estar de seus habitantes.<br>Sua dedicação à inclusão social, educação, cultura e sustentabilidade a tornam um lugar vibrante e promissor na Região Metropolitana de São Paulo.
+            </p>
+                
+                
+        </article>
+    </section>
+
+        <footer>
+            <summary align="center">
+                <details>
+                    <a href="diadema.html">Próximo</a>
+                </details>
+            </summary>
+        </footer>
+</body>
+
+</html>

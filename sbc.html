@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SBC</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 10px;
+            background-color: #ca895f;
+        }
+
+        /* Estilizadno o Header/Blog Title */
+        header {
+            background: linear-gradient(to bottom,#E3E26F 0%, #CA895F);
+            color: #2f1b15;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 50px;
+        }
+
+        /* Estilizando a top nav bar */
+        .topnav {
+            overflow: hidden;
+            background-color: #ca895f;
+            text-align: center;
+        }
+
+        /* Estilizando os links da topnav */
+        .topnav a {
+            float: left;
+            display: block;
+            color: #4e3822;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+
+        }
+
+        /* Colorindo o hover */
+        .topnav a:hover {
+            background: linear-gradient(to bottom, #A15E49 0%, #4E3822 100%);
+            color: #E3E26F;
+            text-align: center;
+        }
+
+        /* Criamos duas colunas uma do lado da outra */
+        /* Coluna da esquerda */
+        .leftcolumn {
+            float: left;
+            width: 75%;
+
+        }
+
+        /* Coluna da direita */
+        .rightcolumn {
+            float: left;
+            width: 25%;
+            background-color: #A15E49;
+            padding: 20px;
+        }
+
+        /* Fake Image */
+        .fakeimg {
+            background-color: #ca895f;
+            width: 100%;
+            padding: 20px;
+            
+        }
+
+        /* Adicionando cartóes para inclusão de artigos */
+        article {
+            background-color: #a15e49;
+            padding: 20px;
+            margin: 20px;
+        }
+
+        /* Limpando os floats depois das colunas */
+        section::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        
+        .left {
+        float: left;
+        display: flex;
+        width: 10%;
+        height: 1000px;
+        /*só um teste boy*/
+        background: linear-gradient(to bottom, #CA895F 0%, #E3E26F);
+        color: #2f1b15;
+        padding: 20px;
+
+        }
+
+        
+        .right {
+            float: right;
+            display: flex;
+            width: 10%;
+            height: 1000px;
+            /*só um teste boy*/
+            background: linear-gradient(to bottom, #CA895F 0%, #E3E26F);
+            color: #2f1b15;
+            padding: 20px;
+           
+
+        }
+        /* Footer */
+        footer {
+            padding: 20px;
+            text-align: center;
+            background: linear-gradient(to bottom,  #CA895F 0%, #E3E26F);
+            color: #4e3822;
+        }
+
+        /* Responsavidade */
+        @media screen and (max-width: 800px) {
+
+            .leftcolumn,
+            .rightcolumn {
+                width: 100%;
+                padding: 0;
+            }
+
+        }
+
+        @media screen and (max-width: 400px) {
+            .topnav a {
+                float: none;
+                width: 100%;
+            }
+        }
+
+
+    </style>
+
+
+</head>
+
+<body> <!-- "Corpo" -->
+
+    <header>
+        <h1>São Bernardo do Campo</h1>
+    </header>
+   
+    <nav class="topnav">
+        <a href="IndexABD.html" target="_self">Home ABD</a>
+        <a href="santo_andre.html" target="_self"> Santo André </a>
+        <a href="diadema.html" target="_self"> Diadema </a>
+        <a href="sao_caetano.html" target="_self"> São Caetano do Sul</a>
+        <a href="sbc.html" target="_self"> São Bernardo do Campo </a>
+       
+    </nav>
+
+    <aside class="left"></aside>
+    
+    <aside class="right"> </aside>
+    <section>
+        <div class="leftcolumn">
+            <article>
+
+                <div class="fakeimg" style="height: 200px;" align="center">
+                    <img src="andre.png" alt="Imagem da região abd" width="30%" height="100%">
+                </div>
+                
+            <!-- aqui coloco um texto escritivo da cidade -->
+                    <p>
+                        
+                    <br> <br>
+                    <!-- texto descritivo -->
+                        São Bernardo do Campo é uma cidade localizada na Região Metropolitana de São Paulo, no Estado de São Paulo, Brasil.<br>Fundada em 1553, a cidade tem uma história rica e desempenhou um papel significativo no desenvolvimento industrial e econômico da região, especialmente durante o século XX.
+
+                        Um dos aspectos mais notáveis de São Bernardo do Campo é sua forte conexão com a indústria automobilística. Durante décadas, a cidade foi um importante centro de produção de automóveis no Brasil, abrigando fábricas de várias montadoras de renome.<br>Esse legado industrial moldou a economia e a identidade da cidade, contribuindo para o crescimento e a prosperidade da região.
+
+                        Além da indústria, São Bernardo do Campo é conhecida por sua diversidade cultural e uma variedade de atividades culturais e de lazer. A cidade possui teatros, cinemas, museus e parques, proporcionando opções de entretenimento para os moradores e visitantes.<br>Eventos culturais, como festivais de música e exposições de arte, também fazem parte da vida cultural da cidade.
+
+                        A educação é outra área importante em São Bernardo do Campo, com instituições de ensino superior e escolas técnicas que oferecem oportunidades de educação e formação profissional para os residentes locais.
+
+                        A cidade também se destaca por seus esforços na preservação do meio ambiente e no planejamento urbano sustentável. Áreas verdes, praças e espaços públicos bem cuidados estão presentes em toda a cidade, proporcionando um ambiente agradável para os moradores.
+
+                        Nos últimos anos, São Bernardo do Campo tem passado por transformações significativas em sua economia e infraestrutura, à medida que busca diversificar sua base industrial e promover o desenvolvimento sustentável. A cidade continua a atrair investimentos e a se reinventar para enfrentar os desafios do século XXI.
+
+                        Em resumo, São Bernardo do Campo é uma cidade que combina uma rica herança industrial com diversidade cultural e esforços de sustentabilidade.<br>Seu passado e presente estão entrelaçados com a história do Brasil, e a cidade continua a evoluir e se adaptar para enfrentar os desafios do futuro, mantendo seu lugar como um dos importantes centros urbanos da Região Metropolitana de São Paulo.
+                        
+                    </p>
+                    </div>
+                
+                </div>
+            
+            </article>
+                
+    </section>
+
+            <footer>
+                <summary align="center">
+                    <details>
+                        <a href="IndexABD.html">Próximo</a>
+                    </details>
+                </summary>
+            </footer>
+</body>
+
+</html>

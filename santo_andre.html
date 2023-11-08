@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Santo André</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 10px;
+            background-color: #ca895f;
+        }
+
+        /* Estilizadno o Header/Blog Title */
+        header {
+            background: linear-gradient(to bottom,#E3E26F 0%, #CA895F);
+            color: #2f1b15;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 50px;
+        }
+
+        /* Estilizando a top nav bar */
+        .topnav {
+            overflow: hidden;
+            background-color:#ca895f;
+        }
+
+        /* Estilizando os links da topnav */
+        .topnav a {
+            float: left;
+            display: block;
+            color: #4e3822;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        /* Colorindo o hover */
+        .topnav a:hover {
+            background: linear-gradient(to bottom, #A15E49 0%, #4E3822 100%);
+            color: #E3E26F;
+        }
+
+        /* Criamos duas colunas uma do lado da outra */
+        /* Coluna da esquerda */
+        .leftcolumn {
+            float: left;
+            width: 75%;
+
+        }
+
+        /* Coluna da direita */
+        .rightcolumn {
+            float: left;
+            width: 25%;
+            background-color: #A15E49;
+            padding: 20px;
+        }
+
+        /* Fake Image */
+        .fakeimg {
+            background-color: #ca895f;
+            width: 100%;
+            padding: 20px;
+           
+        }
+
+        /* Adicionando cartóes para inclusão de artigos */
+        article {
+            background-color: #a15e49;
+            padding: 20px;
+            margin: 20px;
+        }
+
+        /* Limpando os floats depois das colunas */
+        section::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        
+        .left {
+        float: left;
+        display: flex;
+        width: 10%;
+        height: 1000px;
+        /*só um teste boy*/
+        background: linear-gradient(to bottom, #CA895F 0%, #E3E26F);
+        color: #2f1b15;
+        padding: 20px;
+
+        }
+
+        
+        .right{
+            float: right;
+            display: flex;
+            width: 10%;
+            height: 1000px;
+            /*só um teste boy*/
+            background: linear-gradient(to bottom, #CA895F 0%, #E3E26F);
+            color: #2f1b15;
+            padding: 20px;
+           
+
+        }
+        /* Footer */
+        footer {
+            padding: 20px;
+            text-align: center;
+            background: linear-gradient(to bottom,  #CA895F 0%, #E3E26F);
+            color: #4e3822;
+        }
+
+        /* Responsavidade */
+        @media screen and (max-width: 800px) {
+
+            .leftcolumn,
+            .rightcolumn {
+                width: 100%;
+                padding: 0;
+            }
+
+        }
+
+        @media screen and (max-width: 400px) {
+            .topnav a {
+                float: none;
+                width: 100%;
+            }
+        }
+
+
+    </style>
+
+
+</head>
+
+<body> <!-- "Corpo" -->
+
+    <header>
+        <h1>Santo André</h1>
+    </header>
+   
+    <nav class="topnav">
+        <a href="IndexABD.html" target="_self">Home ABD</a>
+        <a href="santo_andre.html" target="_self"> Santo André </a>
+        <a href="diadema.html" target="_self"> Diadema </a>
+        <a href="sao_caetano.html" target="_self"> São Caetano do Sul</a>
+        <a href="sbc.html" target="_self"> São Bernardo do Campo </a>
+       
+    </nav>
+
+    <aside class="left"></aside>
+
+    <aside class="right"></aside>
+
+    <section>
+        <div class="leftcolumn">
+            <article>
+                <div class="fakeimg" style="height: 200px;" align="center">
+                    <img src="andre.png" alt="Imagem da região abd" width="30%" height="100%">
+                </div>
+                
+            <!-- aqui coloco um texto escritivo da cidade -->
+            <p>
+
+                <br> <br>
+                    <!-- faço um texto dscritivo -->
+                    Santo André é uma cidade localizada na Região Metropolitana de São Paulo, no Estado de São Paulo, Brasil.<br>Fundada em 1553, a cidade tem uma rica história que se estende por séculos, e ao longo do tempo, ela se transformou em um importante centro urbano e econômico na região.
+                    
+                    A cidade de Santo André é conhecida por sua diversidade cultural e social, abrigando uma população heterogênea de diferentes origens étnicas e culturais.<br>Essa diversidade é refletida nas várias manifestações culturais, festas populares e eventos que ocorrem na cidade ao longo do ano.
+                    
+                    Um dos aspectos mais marcantes de Santo André é seu comprometimento com a educação.<br>A cidade é sede de diversas instituições de ensino, incluindo universidades, escolas técnicas e centros de formação profissional. Isso faz com que Santo André seja um importante polo educacional na região do ABC Paulista.
+                    
+                    Além disso, a cidade possui uma infraestrutura sólida, com um sistema de transporte público bem desenvolvido, que inclui ônibus e trens, conectando-a a outras cidades da região metropolitana de São Paulo.<br>Isso facilita a mobilidade dos moradores e a atração de empresas que buscam uma localização estratégica.
+                    
+                    No contexto econômico, Santo André desempenha um papel importante na indústria do ABC Paulista, que historicamente foi um centro industrial significativo no Brasil.<br>A cidade abriga várias empresas e indústrias, contribuindo para a geração de empregos e o crescimento econômico da região.
+                    
+                    A cultura e o lazer também são aspectos valorizados em Santo André.<br>A cidade possui espaços culturais, teatros, cinemas e parques, onde os moradores podem desfrutar de atividades recreativas e culturais. Além disso, eventos culturais, como festivais de música e exposições de arte, enriquecem a vida cultural da cidade.
+                    
+                    A preservação do meio ambiente também é uma preocupação em Santo André.<br>A cidade investe em áreas verdes e projetos de sustentabilidade, proporcionando aos moradores espaços naturais para relaxar e apreciar a natureza.
+                    
+                    Em resumo, Santo André é uma cidade que combina história, diversidade cultural, educação, economia e qualidade de vida.<br>Sua localização estratégica na região metropolitana de São Paulo a torna um lugar importante tanto para os moradores locais quanto para os visitantes que desejam explorar o rico patrimônio cultural e as oportunidades que a cidade oferece.
+                
+            </p>
+                
+                
+        </article>
+    </section>
+
+        <footer>
+            <summary align="center">
+                <details>
+                    <a href="diadema.html">Próximo</a>
+                </details>
+            </summary>
+        </footer>
+</body>
+
+</html>

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>São Caetano do Sul</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 10px;
+            background-color: #ca895f;
+        }
+
+        /* Estilizadno o Header/Blog Title */
+        header {
+            background: linear-gradient(to bottom,#E3E26F 0%, #CA895F);
+            color: #2f1b15;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 50px;
+        }
+
+
+        /* Estilizando a top nav bar */
+        .topnav {
+            overflow: hidden;
+            background-color: #ca895f;
+        }
+
+        /* Estilizando os links da topnav */
+        .topnav a {
+            float: left;
+            display: block;
+            color: #4e3822;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        /* Colorindo o hover */
+        .topnav a:hover {
+            background: linear-gradient(to bottom, #A15E49 0%, #4E3822 100%);
+            color: #E3E26F;
+        }
+
+        /* Criamos duas colunas uma do lado da outra */
+        /* Coluna da esquerda */
+        .leftcolumn {
+            float: left;
+            width: 75%;
+
+        }
+
+        /* Coluna da direita */
+        .rightcolumn {
+            float: left;
+            width: 25%;
+            background-color: #A15E49;
+            padding: 20px;
+        }
+
+        /* Fake Image */
+        .fakeimg {
+            background-color: #ca895f;
+            width: 100%;
+            padding: 20px;
+            
+        }
+
+        /* Adicionando cartóes para inclusão de artigos */
+        article {
+            background-color: #a15e49;
+            padding: 20px;
+            margin: 20px;
+        }
+
+        /* Limpando os floats depois das colunas */
+        section::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        
+        .left {
+        float: left;
+        display: flex;
+        width: 10%;
+        height: 1000px;
+        /*só um teste boy*/
+        background: linear-gradient(to bottom, #CA895F 0%, #E3E26F);
+        color: #2f1b15;
+        padding: 20px;
+
+        }
+
+        
+        .right {
+            float: right;
+            display: flex;
+            width: 10%;
+            height: 1000px;
+            /*só um teste boy*/
+            background: linear-gradient(to bottom, #CA895F 0%, #E3E26F);
+            color: #2f1b15;
+            padding: 20px;
+           
+
+        }
+        /* Footer */
+        footer {
+            padding: 20px;
+            text-align: center;
+            background: linear-gradient(to bottom,  #CA895F 0%, #E3E26F);
+            color: #4e3822;
+        }
+
+        /* Responsavidade */
+        @media screen and (max-width: 800px) {
+
+            .leftcolumn,
+            .rightcolumn {
+                width: 100%;
+                padding: 0;
+            }
+
+        }
+
+        @media screen and (max-width: 400px) {
+            .topnav a {
+                float: none;
+                width: 100%;
+            }
+        }
+
+
+    </style>
+
+
+</head>
+
+<body> <!-- "Corpo" -->
+
+    <header>
+        <h1>São Caetano do Sul</h1>
+    </header>
+
+    <nav class="topnav">
+        <a href="IndexABD.html" target="_self">Home ABD</a>
+        <a href="santo_andre.html" target="_self"> Santo André </a>
+        <a href="diadema.html" target="_self"> Diadema </a>
+        <a href="sao_caetano.html" target="_self"> São Caetano do Sul</a>
+        <a href="sbc.html" target="_self"> São Bernardo do Campo </a>
+           
+     </nav>
+    
+   
+    <aside class="left">
+        <a href="https://playvalorant.com/pt-br/?gad=1&gclid=EAIaIQobChMI5_3UyvXcgQMVph2tBh3juQMWEAAYASAAEgKCwfD_BwE&gclsrc=aw.ds">
+
+            <img src="https://m.media-amazon.com/images/M/MV5BMjA4YTMzMjEtNWU0MC00NTViLTliODMtMTNmN2E3ODYyN2EyXkEyXkFqcGdeQXVyMTA0NTY0NTYy._V1_.jpg" 
+            alt="Advertisement" width="110" height="990" style="display: block;">
+
+        </a>
+    </aside>
+
+    <aside class="right"></aside>
+
+    <section>
+        <div class="leftcolumn">
+            <article>
+                        <div class="fakeimg" style="height: 200px;" align="center">
+                            <img src="bandsaoc.png" alt="Imagem da região abd" width="30%" height="100%">
+                        </div>
+                        
+                    <!-- aqui coloco um texto escritivo da cidade -->
+                    <p>
+
+                        <br> <br>
+                            <!-- faço um texto dscritivo -->
+                            São Caetano do Sul é uma cidade localizada na Região Metropolitana de São Paulo, no Estado de São Paulo, Brasil.<br>Com uma história rica e uma posição estratégica na região, São Caetano é conhecida por seu desenvolvimento econômico, qualidade de vida e educação de excelência.
+                        
+                            A cidade de São Caetano do Sul tem suas origens nas plantações de café do século XIX, mas ao longo do tempo, experimentou uma transformação significativa em sua economia. Na segunda metade do século XX, a cidade se destacou como um importante polo industrial, especialmente na produção de veículos e autopeças, desempenhando um papel fundamental no crescimento econômico do país.
+                            
+                            Um dos traços mais marcantes de São Caetano é sua qualidade de vida.<br>A cidade é conhecida por oferecer infraestrutura de alta qualidade, serviços públicos eficientes e uma variedade de áreas verdes e parques bem conservados. Esses fatores contribuem para um ambiente agradável e saudável para os moradores.
+                            
+                            Além disso, São Caetano do Sul é reconhecida por seu compromisso com a educação.<br>A cidade abriga instituições de ensino de renome e uma forte rede de escolas públicas e privadas. Isso a torna um polo educacional, atraindo estudantes e profissionais de todo o país.
+                            
+                            A cultura e o lazer também têm seu espaço em São Caetano.<br>Teatros, cinemas, bibliotecas e espaços culturais oferecem uma variedade de atividades para os amantes da arte e da cultura. A cidade também promove eventos culturais ao longo do ano, enriquecendo a vida cultural dos moradores.
+                            
+                            Nos últimos anos, São Caetano do Sul tem buscado diversificar sua economia e atrair empresas de setores variados, além de investir em tecnologia e inovação.<br>Essa abordagem visa garantir que a cidade continue a prosperar em um ambiente econômico em constante evolução.
+                            
+                            Em resumo, São Caetano do Sul é uma cidade que combina uma herança industrial com qualidade de vida, educação de excelência e uma forte identidade cultural.<br>Seu compromisso com o desenvolvimento sustentável e a diversificação econômica a tornam um local atraente para moradores e empreendedores, mantendo seu lugar como um dos importantes centros urbanos da Região Metropolitana de São Paulo.
+            
+                    </p>
+               
+                
+            </article>
+    </section>
+
+            <footer>
+                <summary align="center">
+                    <details>
+                        <a href="sbc.html">Próximo</a>
+                    </details>
+                </summary>
+            </footer>
+</body>
+
+</html>
